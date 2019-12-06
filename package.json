@@ -1,0 +1,12 @@
+{
+  "name": "xmas-clock",
+  "version": "1.0.0",
+  "description": "A simple expressed powered chirstimas countdown",
+  "main": "index.js",
+  "repository": "https://github.com/wilsonthewolf/xmas-clock",
+  "author": "WilsontheWolf",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
