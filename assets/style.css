@@ -5,3 +5,11 @@ body {
 p {
     text-align: center;      
 }
+
+#bounce {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}

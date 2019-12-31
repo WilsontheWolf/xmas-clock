@@ -6,6 +6,9 @@
   "repository": "https://github.com/wilsonthewolf/xmas-clock",
   "author": "WilsontheWolf",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }

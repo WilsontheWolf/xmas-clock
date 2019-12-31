@@ -1,7 +1,7 @@
 const year = new Date().getFullYear()
 const day = new Date().getDay()
 const month = new Date().getMonth()
-let christmas = new Date(month == 11 && day >= 25 ? year + 1 : year, 11, 25).getTime()
+let christmas = new Date(year + 1, 1, 1).getTime()
 let speed = 1
 let angle = Math.floor(Math.random() * 361);
 function convertMS(milliseconds) {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             main.innerText = `${time.day}days ${time.hour}hrs ${time.minute}mins ${time.seconds}secs`
             fitText(main, 1);
         } else {
-            main.innerText = "Merry Christmas"
+            main.innerText = "Happy New Year"
         }
     }
     setInterval(writeTime, 10)

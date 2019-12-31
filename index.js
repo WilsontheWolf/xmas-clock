@@ -13,6 +13,7 @@ function getCommandLine() {
 }
 
 app.get('/', (req, res) => res.sendFile(__dirname + '/assets/index.html'))
+app.get('/newyears', (req, res) => res.sendFile(__dirname + '/assets/newYears.html'))
 app.get('/assets/:name', (req, res) => { res.sendFile(__dirname + `/assets/${req.params.name}`) })
 app.use(function (err, req, res, next) {
     console.error(err)
